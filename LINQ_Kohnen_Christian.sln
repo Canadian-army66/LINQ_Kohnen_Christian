@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Kohnen_Christian", "LINQ_Kohnen_Christian\LINQ_Kohnen_Christian.csproj", "{9CFFDD38-969E-46A0-9E0A-6B5C018D6D95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Kohnen_Christian", "LINQ_Kohnen_Christian\LINQ_Kohnen_Christian.csproj", "{E4945F77-5A4A-4653-A7DB-D90A73A304E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9CFFDD38-969E-46A0-9E0A-6B5C018D6D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CFFDD38-969E-46A0-9E0A-6B5C018D6D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CFFDD38-969E-46A0-9E0A-6B5C018D6D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CFFDD38-969E-46A0-9E0A-6B5C018D6D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4945F77-5A4A-4653-A7DB-D90A73A304E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4945F77-5A4A-4653-A7DB-D90A73A304E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4945F77-5A4A-4653-A7DB-D90A73A304E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4945F77-5A4A-4653-A7DB-D90A73A304E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EDA1B160-1D44-4B59-B2B8-123D62AF3031}
+		SolutionGuid = {E0F24CA8-E11A-449C-A8F3-D440A29594C7}
 	EndGlobalSection
 EndGlobal
