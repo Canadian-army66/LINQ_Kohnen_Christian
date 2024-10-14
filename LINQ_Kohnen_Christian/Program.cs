@@ -13,10 +13,10 @@ namespace LINQ_Kohnen_Christian
                 new Game("Titanfall", 'M', "Movement FPS"),
                 new Game("Lies of P", 'M', "Action-Adventure"),
                 new Game("Space Marine 2", 'M', "Thrisp Person Shooter"),
-                new Game("I Love You, Colonel Sanders!", 'E', "Dating Sim")
+                new Game("I Love You Colonel Sanders", 'E', "Dating Sim")
             };
             var shortGames = from game in games
-                             where game.Title.Length < 9
+                             where game.Title.Length <= 9
                              select $"Game Title: {game.Title.ToUpper()}";
 
             foreach(var game in shortGames)
@@ -31,13 +31,23 @@ namespace LINQ_Kohnen_Christian
 
             var eRated = from game in games
                          where game.Esrb == 'E'
-                         select game.Esrb;
+                         select game.Title;
 
             Console.WriteLine("E rated games:");
             foreach(var game in eRated)
             {
-                Console.Write(game);
-            }       
+                Console.WriteLine($"{game}. ");
+            }
+            
+            var mRatedAction = from game in games
+                               where game.Esrb == 'M' && game.Genre.Contains("Action")
+                               select game.Title;
+
+            Console.WriteLine("E rated games:");
+            foreach (var game in mRatedAction)
+            {
+                Console.WriteLine(game);
+            }
         }
     }
 }
